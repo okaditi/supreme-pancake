@@ -37,14 +37,14 @@ const config = {
     apiKey: ETHERSCAN_API_KEY,
   },
   sourcify: {
-    enabled: true
+    enabled: true,
   },
   paths: {
     sources: "./contracts",
     tests: "./test",
     cache: "./cache",
-    artifacts: "./artifacts"
-  }
+    artifacts: "./artifacts",
+  },
 };
 
 export default config;
